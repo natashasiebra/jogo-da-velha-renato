@@ -1,0 +1,15 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "primeiro jogo da velha, professor renato ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "natasha",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.4"
+  }
+}

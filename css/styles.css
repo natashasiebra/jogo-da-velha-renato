@@ -1,0 +1,56 @@
+/* Reset de estilos para garantir uma base consistente */
+
+h1{
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #f10eed;
+}
+
+
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 2px;
+    width: 306px;
+    margin: 0 auto;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.238);
+    border: 2px solid #f10eed;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+button {
+    background-color: #f10eed;
+    color: #000000;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+p{
+    color: black;
+}
+
+/* Adicione estilos para destacar células vencedoras, se desejar */
+/* .winning-cell {
+    background-color: #aaffaa;
+} */
